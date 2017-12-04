@@ -34,12 +34,12 @@ body {
 
 .mecha {
   float: left;
-  max-width: 40%;
+  max-width: 35%;
 }
 
 .text {
   float: right;
-  width: 60%;
+  width: 65%;
   padding-left: 2em;
 }
 
