@@ -35,12 +35,12 @@ body {
 .mecha {
   float: left;
   max-width: 30%;
-  padding-right: 1em;
 }
 
 .text {
   float: right;
   width: 70%;
+  padding-left: 2em;
 }
 
 h2 {
