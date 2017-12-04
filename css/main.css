@@ -35,6 +35,7 @@ body {
 .mecha {
   float: left;
   max-width: 30%;
+  padding-right: 1em;
 }
 
 .text {
