@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -27,37 +26,51 @@ body {
   width: 100%;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, 50%);
   bottom: 0;
-  padding: 1.6rem;
+  padding: 1em;
   margin: 0;
+}
+
+.mecha {
+  float: left;
+  max-width: 30%;
 }
 
 h2 {
   display: inline;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
-  color: white;
-  background-color: rgba(0, 0, 0, .5);
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 70%;
 }
 
 p {
-  font-style: italic;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 1em;
-  margin: 0;
+  margin: .5em 0;
+  font-family: 'Roboto', sans-serif;
+  max-width: 70%;
 }
 
 .btn {
-  padding: .4em .75em .3em;
+  padding: .6em .75em .6em;
   border-radius: 8px;
   background-color: #333;
   color: #fff;
   display: inline-block;
   text-decoration: none;
   font-size: 1.125rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1em;
 }
 
 .btn-big {
   font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: black;
 }
