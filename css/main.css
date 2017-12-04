@@ -45,6 +45,7 @@ h2 {
   color: black;
   font-family: "Roboto Condensed", sans-serif;
   max-width: 70%;
+  float: right;
 }
 
 p {
@@ -53,6 +54,7 @@ p {
   margin: .5em 0;
   font-family: 'Roboto', sans-serif;
   max-width: 70%;
+  float: right;
 }
 
 .btn {
